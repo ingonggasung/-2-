@@ -11,12 +11,12 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-void errorCallback(int error, const char* description)
+void errorCallback(int error, const char* description) // 오류 감지 함수
 {
 	std::cerr << "GLFW Error: " << description << std::endl;
 }
 
-void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods) // esc키를 누르면 화면이 꺼지게 설정하는 함수
 {
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 	{
