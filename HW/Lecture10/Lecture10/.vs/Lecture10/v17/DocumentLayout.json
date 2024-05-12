@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E4963C-180D-456A-8297-7875F6559858}|Lecture10-HW\\Lecture10-HW.vcxproj|C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6E4963C-180D-456A-8297-7875F6559858}|Lecture10-HW\\Lecture10-HW.vcxproj|solutionrelative:Lecture10-HW\\Lecture10-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lecture10-HW.cpp",
+              "DocumentMoniker": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
+              "RelativeDocumentMoniker": "Lecture10-HW\\Lecture10-HW.cpp",
+              "ToolTip": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
+              "RelativeToolTip": "Lecture10-HW\\Lecture10-HW.cpp",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T10:59:11.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
