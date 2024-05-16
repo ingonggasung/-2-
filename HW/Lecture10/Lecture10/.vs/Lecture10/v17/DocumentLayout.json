@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\",
+  "WorkspaceRootPath": "D:\\Homework\\HW\\Lecture10\\Lecture10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6E4963C-180D-456A-8297-7875F6559858}|Lecture10-HW\\Lecture10-HW.vcxproj|C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F6E4963C-180D-456A-8297-7875F6559858}|Lecture10-HW\\Lecture10-HW.vcxproj|D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F6E4963C-180D-456A-8297-7875F6559858}|Lecture10-HW\\Lecture10-HW.vcxproj|solutionrelative:Lecture10-HW\\Lecture10-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{454C134E-040E-4AC3-90BC-3C692900ED69}|Project1\\Project1.vcxproj|D:\\Homework\\HW\\Lecture10\\Lecture10\\Project1\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{454C134E-040E-4AC3-90BC-3C692900ED69}|Project1\\Project1.vcxproj|solutionrelative:Project1\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4AC7D4-EE00-4727-8E8D-6FD5819952C7}|Lecture10\\Lecture10.vcxproj|D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10\\Lecture10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B4AC7D4-EE00-4727-8E8D-6FD5819952C7}|Lecture10\\Lecture10.vcxproj|solutionrelative:Lecture10\\Lecture10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,18 +31,50 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC18C\uC2A4.cpp",
+              "DocumentMoniker": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Project1\\\uC18C\uC2A4.cpp",
+              "RelativeDocumentMoniker": "Project1\\\uC18C\uC2A4.cpp",
+              "ToolTip": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Project1\\\uC18C\uC2A4.cpp",
+              "RelativeToolTip": "Project1\\\uC18C\uC2A4.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-16T13:52:03.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lecture10-HW.cpp",
-              "DocumentMoniker": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
+              "DocumentMoniker": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
               "RelativeDocumentMoniker": "Lecture10-HW\\Lecture10-HW.cpp",
-              "ToolTip": "C:\\Users\\\uAE40\uC218\uBBFC\\Desktop\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
+              "ToolTip": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10-HW\\Lecture10-HW.cpp",
               "RelativeToolTip": "Lecture10-HW\\Lecture10-HW.cpp",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAAAHcAAAAAAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAcwH8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-08T10:59:11.427Z",
+              "WhenOpened": "2024-05-13T08:49:30.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lecture10.cpp",
+              "DocumentMoniker": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10\\Lecture10.cpp",
+              "RelativeDocumentMoniker": "Lecture10\\Lecture10.cpp",
+              "ToolTip": "D:\\Homework\\HW\\Lecture10\\Lecture10\\Lecture10\\Lecture10.cpp",
+              "RelativeToolTip": "Lecture10\\Lecture10.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-13T08:51:28.503Z",
               "EditorCaption": ""
             }
           ]

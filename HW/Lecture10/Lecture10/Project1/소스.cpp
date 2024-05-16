@@ -41,7 +41,7 @@ int render() // 도형 선언
 {
     glBegin(GL_TRIANGLES);
     
-    setVertexRotation(0.45f, 0.14f, angle);
+    setVertexRotation(0.45f, 0.14f, angle); 
     setVertexRotation(-0.45f, 0.14f, angle);
     setVertexRotation(0.0f, -0.2f, angle);
     

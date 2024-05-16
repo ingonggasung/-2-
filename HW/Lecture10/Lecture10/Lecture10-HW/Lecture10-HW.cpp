@@ -8,8 +8,9 @@ float moveFactor = 0.0f;
 float scaleFactor = 1.0f;
 float earthOrbitAngle = 0.0f;
 float earthRotationAngle = 0.0f; // 지구의 자전 각도
+float sunRotationAngle = 0.0f; // 지구의 자전 각도
 float moonOrbitAngle = 0.0f;
-
+float angle = 0.0f;
 void errorCallback(int error, const char* description) {
     std::cerr << "GLFW 오류: " << description << std::endl;
 }
@@ -26,14 +27,18 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
     }
 }
 
-void drawRectangle(float width, float height) {
-    glBegin(GL_QUADS);
-    glVertex2f(-width / 2, -height / 2);
-    glVertex2f(width / 2, -height / 2);
-    glVertex2f(width / 2, height / 2);
-    glVertex2f(-width / 2, height / 2);
-    glEnd();
+int setVertexRotation(float x, float y, float angle_degree)
+{    
+    glVertex2f(x * cos(angle_degree) - (y * sin(angle_degree)), x * sin(angle_degree) + (y * cos(angle_degree)));
+    return 0;
 }
+
+int setSunVertexRotation(float x, float y, float angle_degree)
+{    
+    glVertex2f(x * cos(angle_degree) - (y * sin(angle_degree)), x * sin(angle_degree) + (y * cos(angle_degree)));
+    return 0;
+}
+
 
 void drawRotatedRectangle(float x, float y, float width, float height, float angle) {
     float halfWidth = width / 2;
@@ -59,9 +64,107 @@ void drawRotatedRectangle(float x, float y, float width, float height, float ang
     glEnd();
 }
 
+void drawRotatedStar(float x, float y, float width, float height, float angle) {
+    
+}
+
+//void drawPentagram(float x, float y, float size, float angle) {
+//    float angleIncrement = 72.0 * 3.1415 / 180.0; // 72 degrees in radians
+//
+//    setVertexRotation(x, y, angle);
+//    for (int i = 0; i < 360; i+=72)
+//    {
+//        setVertexRotation  
+//    }
+//
+//    glEnd();
+//}
+
 int sunRender() {
-    glColor3f(1.0f, 1.0f, 0.0f); // 태양은 노란색으로
-    drawRectangle(0.4f, 0.4f); // 사각형으로 태양 그리기
+    glBegin(GL_TRIANGLE_FAN);
+    glColor3f(1.0f, 1.0f, 0.0f);
+    setSunVertexRotation(0.0f, 0.0f, 0);
+
+    for (int i = 0; i < 360; i++)
+    {
+        setSunVertexRotation(0.25f, 0.0f, i+angle);        
+    }
+    glEnd();   
+
+    float posX1 = -0.1f, posY1 = -0.18f;
+    for (int i = 0; i < 5; i++)
+    {
+        glBegin(GL_TRIANGLES);
+        glColor3f(0.8f, 0.8f, 0.1f);
+        setVertexRotation(0.0f, -0.18f, angle);
+        setVertexRotation(posX1, posY1, angle);
+        posX1 = posX1 + 0.01f * i;
+        posY1 = posY1 + 0.002f * (4-i);
+        setVertexRotation(posX1, posY1, angle);
+    }
+    glEnd();
+    
+    float posX2 = 0.1f, posY2 = -0.18f;
+    for (int i = 0; i < 5; i++)
+    {
+        glBegin(GL_TRIANGLES);
+        glColor3f(0.8f, 0.8f, 0.1f);
+        setVertexRotation(0.0f, -0.18f, angle);
+        setVertexRotation(posX2, posY2, angle);
+        posX2 = posX2 - 0.01f * i;
+        posY2 = posY2 + 0.002f * (4 - i);
+        setVertexRotation(posX2, posY2, angle);
+    }
+    glEnd();
+
+    float posX3 = -0.1f, posY3 = -0.18f;
+    for (int i = 0; i < 5; i++)
+    {
+        glBegin(GL_TRIANGLES);
+        glColor3f(0.8f, 0.8f, 0.1f);
+        setVertexRotation(0.0f, -0.18f, angle);
+        setVertexRotation(posX3, posY3, angle);
+        posX3 = posX3 + 0.01f * i;
+        posY3 = posY3 - 0.002f * (4-i);
+        setVertexRotation(posX3, posY3, angle);
+    }
+    glEnd();
+
+    float posX4 = 0.1f, posY4 = -0.18f;
+    for (int i = 0; i < 5; i++)
+    {
+        glBegin(GL_TRIANGLES);
+        glColor3f(0.8f, 0.8f, 0.1f);
+        setVertexRotation(0.0f, -0.18f, angle);
+        setVertexRotation(posX4, posY4, angle);
+        posX4 = posX4 - 0.01f * i;
+        posY4 = posY4 - 0.002f * (4-i);
+        setVertexRotation(posX4, posY4, angle);
+    }
+    /*glBegin(GL_TRIANGLES);
+    glColor3f(0.8f, 0.8f, 0.1f);
+
+    setVertexRotation(0.0f, -0.18f, angle);
+    setVertexRotation(0.0f, -0.2f, angle);
+    setVertexRotation(-0.04f, -0.198f, angle);
+
+    setVertexRotation(0.0f, -0.18f, angle);
+    setVertexRotation(-0.04f, -0.198f, angle);
+    setVertexRotation(-0.07f, -0.194f, angle);
+
+    setVertexRotation(0.0f, -0.18f, angle);
+    setVertexRotation(-0.07f, -0.194f, angle);
+    setVertexRotation(-0.09f, -0.188f, angle);
+
+    setVertexRotation(0.0f, -0.18f, angle);
+    setVertexRotation(-0.09f, -0.188f, angle);
+    setVertexRotation(-0.1f, -0.18f, angle);*/
+
+    glEnd();
+    //x = cos(i);
+    //y = sin(i);
+    angle += 0.02;
+
     return 0;
 }
 
@@ -69,13 +172,13 @@ int earthRender() {
     glColor3f(0.0f, 0.0f, 1.0f); // 지구는 파란색으로
     float earthX = 0.6f * cos(earthOrbitAngle);
     float earthY = 0.6f * sin(earthOrbitAngle);
-    float moonX = earthX + 0.15f * cos(moonOrbitAngle);
-    float moonY = earthY + 0.15f * sin(moonOrbitAngle);
+    float moonX = earthX + 0.3f * cos(moonOrbitAngle);
+    float moonY = earthY + 0.3f * sin(moonOrbitAngle);
 
     drawRotatedRectangle(earthX, earthY, 0.1f, 0.1f, earthRotationAngle); // 사각형으로 지구 그리기
 
     glColor3f(1.0f, 1.0f, 1.0f); // 달은 흰색으로
-    drawRotatedRectangle(moonX, moonY, 0.05f, 0.05f, moonOrbitAngle); // 사각형으로 달 그리기
+    drawRotatedRectangle(moonX, moonY, 0.05f, 0.05f, moonOrbitAngle); // 사각형으로 달 그리기     
 
     return 0;
 }
