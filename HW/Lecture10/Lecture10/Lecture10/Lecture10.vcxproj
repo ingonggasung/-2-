@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Project1\소스.cpp" />
     <ClCompile Include="Lecture10.cpp" />
   </ItemGroup>
   <ItemGroup>
