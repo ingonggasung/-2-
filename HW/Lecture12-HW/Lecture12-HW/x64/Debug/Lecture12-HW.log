@@ -1,0 +1,7 @@
+﻿  Lecture12-HW.cpp
+D:\Homework\HW\Lecture12-HW\Lecture12-HW\Lecture12-HW.cpp(39,19): warning C4244: '초기화 중': '_Rep'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Homework\HW\Lecture12-HW\Lecture12-HW\Lecture12-HW.cpp(39,19): warning C4244:         with
+D:\Homework\HW\Lecture12-HW\Lecture12-HW\Lecture12-HW.cpp(39,19): warning C4244:         [
+D:\Homework\HW\Lecture12-HW\Lecture12-HW\Lecture12-HW.cpp(39,19): warning C4244:             _Rep=__int64
+D:\Homework\HW\Lecture12-HW\Lecture12-HW\Lecture12-HW.cpp(39,19): warning C4244:         ]
+  Lecture12-HW.vcxproj -> D:\Homework\HW\Lecture12-HW\x64\Debug\Lecture12-HW.exe

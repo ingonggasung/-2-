@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Homework\\HW\\Lecture11-HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8F7087-EA60-4723-8E79-13A7C6EA3F16}|Lecture11-HW\\Lecture11-HW.vcxproj|D:\\Homework\\HW\\Lecture11-HW\\Lecture11-HW\\Lecture11-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E8F7087-EA60-4723-8E79-13A7C6EA3F16}|Lecture11-HW\\Lecture11-HW.vcxproj|solutionrelative:Lecture11-HW\\Lecture11-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lecture11-HW.cpp",
+              "DocumentMoniker": "D:\\Homework\\HW\\Lecture11-HW\\Lecture11-HW\\Lecture11-HW.cpp",
+              "RelativeDocumentMoniker": "Lecture11-HW\\Lecture11-HW.cpp",
+              "ToolTip": "D:\\Homework\\HW\\Lecture11-HW\\Lecture11-HW\\Lecture11-HW.cpp",
+              "RelativeToolTip": "Lecture11-HW\\Lecture11-HW.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T12:33:32.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
