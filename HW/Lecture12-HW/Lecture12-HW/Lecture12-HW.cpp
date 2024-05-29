@@ -44,6 +44,19 @@ int main()
 			this_thread::sleep_for(chrono::milliseconds(1000 - sleep));
 		}
 		else this_thread::sleep_for(chrono::milliseconds(sleep));
+
+		////정답
+		////슬립
+		//this_thread::sleep_for(chrono::milliseconds(1000 + delay_time_ms));
+		////시작시간과 끝시간
+		//prev_end = end;
+		//end = chrono::steady_clock::now();
+		////시간차 구하기
+		//chrono::steady_clock::duration diff = end - prev_end;
+		//delay_time_ms = 1000 - chrono::duration_cast<chrono::milliseconds>(diff).count();
+		////출력
+		//count++;
+		//cout << count << "   dur:" << delay_time_ms << endl;
 	}
 }
 //prev_end = end;
