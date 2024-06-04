@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Homework\\HW\\Lecture12-HW\\",
+  "WorkspaceRootPath": "D:\\-2-\\HW\\Lecture12-HW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94D52D7C-C1D7-4A60-B4F3-04B9A3356546}|Lecture12-HW\\Lecture12-HW.vcxproj|D:\\Homework\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{94D52D7C-C1D7-4A60-B4F3-04B9A3356546}|Lecture12-HW\\Lecture12-HW.vcxproj|D:\\-2-\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{94D52D7C-C1D7-4A60-B4F3-04B9A3356546}|Lecture12-HW\\Lecture12-HW.vcxproj|solutionrelative:Lecture12-HW\\Lecture12-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lecture12-HW.cpp",
-              "DocumentMoniker": "D:\\Homework\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp",
+              "DocumentMoniker": "D:\\-2-\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp",
               "RelativeDocumentMoniker": "Lecture12-HW\\Lecture12-HW.cpp",
-              "ToolTip": "D:\\Homework\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp",
+              "ToolTip": "D:\\-2-\\HW\\Lecture12-HW\\Lecture12-HW\\Lecture12-HW.cpp",
               "RelativeToolTip": "Lecture12-HW\\Lecture12-HW.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAARAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-28T11:27:14.535Z",
               "EditorCaption": ""
